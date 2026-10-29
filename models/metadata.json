@@ -1,0 +1,44 @@
+{
+    "target_column": "Accident_Severity_C",
+    "feature_columns": [
+        "Date",
+        "Day_of_Week",
+        "Time_of_Accident",
+        "Accident_Location_A",
+        "Accident_Location_A_Chainage_km",
+        "Accident_Location_A_Chainage_km_RoadSide",
+        "Causes_D",
+        "Road_Feature_E",
+        "Road_Condition_F",
+        "Weather_Conditions_H",
+        "Vehicle_Type_Involved_J_V1"
+    ],
+    "numeric_columns": [
+        "Day_of_Week",
+        "Time_of_Accident",
+        "Accident_Location_A",
+        "Accident_Location_A_Chainage_km",
+        "Accident_Location_A_Chainage_km_RoadSide",
+        "Causes_D",
+        "Road_Feature_E",
+        "Road_Condition_F",
+        "Weather_Conditions_H",
+        "Vehicle_Type_Involved_J_V1"
+    ],
+    "categorical_columns": [
+        "Date"
+    ],
+    "target_classes": [
+        "1",
+        "2",
+        "3",
+        "4"
+    ],
+    "best_model": "Random Forest",
+    "metrics": {
+        "accuracy": 0.45129469790382243,
+        "precision_macro": 0.382253377007709,
+        "recall_macro": 0.37865569154240253,
+        "f1_macro": 0.37242460517771103
+    }
+}
